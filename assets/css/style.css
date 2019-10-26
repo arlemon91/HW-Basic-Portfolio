@@ -1,71 +1,95 @@
-li a {
-float: right;
-color: white: 
+a {
 text-align: center;
-padding: 14px 16px;
 text-decoration: none;
+color: whitesmoke;
+float: right;
+margin-right: 50px;
 }
 
-ul {
+.container {
+    color: whitesmoke;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+    height: 70px;
     background: mediumseagreen;
-    width: 100&;
+    width: 100%;
+    font-size: 14pt;
+}
+
+footer{
+background: mediumseagreen;
+position: fixed; 
+bottom: 0;
+height: 70px;
+width: 100%;
+margin: 0 auto;
+color: whitesmoke;
+text-align: center;
 }
 
 p {
-text-align: center;
+text-align: justify;
+font-size: 14pt;
+line-height: 1cm;
+position: relative;
+margin: 60px 25px 25px 25px;
 }
 
 img {
 width: 220px;
-height: 330px; 
-margin: 20px 20px 20px 20px;
+height: 250px; 
+margin: 40px 20px 20px 20px;
+float: left;
 }
 
 .flow {
 background: whitesmoke;
 }
 
-footer{
-background: lightgray;
-position: fixed; 
-bottom: 0;
-height: 60px;
-width: 100%;
-margin: 0;
-}
-
- img {
-float: left;
- }
 
 .box {
 width: 960px;
-border: solid thin thistle;
-background: whitesmoke;
-margin-left: 220px;
-margin-top: 100px;
-margin-bottom: 0px;
-position: absolute;
+height: 340px;
+background: lightgrey;
+margin-left: 240px;
+margin-top: 150px;
+position: relative;
 }
 
 #wrap {
 width: 100%;
 height: 100%; 
-margin: 0 auto;
+margin: 0;
 }
 
-.clearfix {
-    margin-top: 30px;
-    margin-left: 40px;
-    margin-right: 40px;
-    background: grey;
-    clearfix: auto;
+.box1 {
+    position: relative;
+    margin-right: 200px;
+    margin-left: 300px;
+    position: relative;
+    width: 900px;
+    height: 460px;
+    background: lightgray;
+}
+body {
+    overflow: ;
+    margin: 0 auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(https://images.unsplash.com/photo-1566370424256-a76a2ae99b27?ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80);
 }
 
-li {
-  
+.work {
+    position: relative
+    float: ;
+    width: 274px;
+    margin: 25px 25px 25px 25px;
+    text-align: center
+}
+
+header {
+    margin-left: 225px;
+    font-size: 25pt;
+}
+h1 {
+    text-align: center;
+    color: whitesmoke;
 }
