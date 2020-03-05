@@ -1,102 +1,89 @@
 a {
     text-align: center;
     text-decoration: none;
-    color: whitesmoke;
+    color: goldenrod;
     float: right;
     margin-right: 50px;
-    }
-    a:hover {
-        color: lightgoldenrodyellow;
-    }
-    
-    .container {
-        color: whitesmoke;
-        list-style-type: none;
-        height: 70px;
-        background: mediumseagreen;
-        width: 100%;
-        font-size: 14pt;
-    }
-    
-    footer{
-    background: mediumseagreen;
-    position: fixed; 
-    bottom: 0;
-    height: 70px;
-    width: 100%;
-    margin: 0 auto;
+}
+
+a:hover {
+    color: black;
+}
+
+header {
     color: whitesmoke;
+    list-style-type: none;
+    height: 70px;
+    background: mediumseagreen; opacity: 0.7;
+    width: 100%;
+    font-size: 18pt;
+    position: fixed;
+    margin: auto 0;
+    top: 0;
+}
+
+
+footer{
+background: mediumseagreen; opacity: 0.7;
+position: fixed; 
+bottom: 0;
+height: 70px;
+width: 100%;
+margin: 0 auto;
+color: whitesmoke;
+text-align: center;
+}
+
+body {
+    color: goldenrod;
+    margin-top: 160px;        
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(https://images.unsplash.com/photo-1566370424256-a76a2ae99b27?ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80);   
+}
+
+
+h1 {
     text-align: center;
-    }
-    
-    p {
-    text-align: justify;
-    font-size: 14pt;
-    line-height: 1cm;
-    position: relative;
-    margin: 60px 25px 25px 25px;
-    }
-    
-    img {
-    width: 220px;
-    height: 250px; 
-    margin: 10px 40px 20px 20px;
-    float: left;
-    }
-    
-    .box {
-    width: 960px;
-    height: 360px;
-    background: lightgrey;
-    margin: 70px 100px 0px 260px;
-    text-align: justify;
-    font-size: 14pt;
-    line-height: 1cm;
-    }
-    
-    body {
-        color: whitesmoke;
-        margin: 0 auto;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        background-image: url(https://images.unsplash.com/photo-1566370424256-a76a2ae99b27?ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80);
-    }
-    
-    
-    header {
-        margin-left: 225px;
-        font-size: 25pt;
-    }
-    h1 {
-        text-align: center;
-        color: whitesmoke;
-    }
-    
-    
-    input[type=text] {
-        width: 100%;
-        padding: 10px 10px;
-        margin: 0; 
-        box-sizing: border-box;
-        color: mediumseagreen;
-        font-size: 16pt;
-    }
-    
-    label {
-        font-size: 16pt;
-        color: whitesmoke;
-    }
-    
-    input[type=submit] {
-        width: 30%;
-        color: mediumseagreen;
-        margin: 10px 0;
-        border-radius: 4px;
-        cursor: pointer;
-        font-weight: bolder;
-        font-size: 18pt;
-        float: right;
-    }
-    
-    .compart {
-        padding: 40px;
-    }
+    color: whitesmoke;
+}
+
+
+input[type=text] {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 0; 
+    box-sizing: border-box;
+    color: mediumseagreen;
+    font-size: 16pt;
+}
+
+label {
+    font-size: 16pt;
+    color: mediumseagreen;
+}
+
+input[type=submit] {
+    width: 30%;
+    color: mediumseagreen;
+    margin: 10px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 18pt;
+    float: right;
+}
+
+.compart {
+    padding: 40px;
+}
+
+.card {
+    width: 600px;
+}
+img { 
+    padding: 30px
+}
+
+p {
+    padding: 30px;
+}
